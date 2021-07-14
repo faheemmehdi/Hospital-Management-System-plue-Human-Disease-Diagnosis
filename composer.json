@@ -1,0 +1,38 @@
+{
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=5.3.7",
+		"twilio/sdk": "^5.35",
+		"ext-curl" : "*",
+	 "authorizenet/authorizenet": ">=1.9.9 || <2.0" ,
+	  "omnipay/common": "^3",
+        "php-http/guzzle6-adapter": "^1.1|^2",
+		"league/omnipay": "^3",
+		"omnipay/paypal": "^3.0"
+
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+	     "omnipay/tests": "^3",
+		"mikey179/vfsStream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
+	},
+	 "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "prefer-stable": true
+}

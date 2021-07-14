@@ -1,0 +1,23 @@
+{
+	"sEmptyTable":     "Tabloda veri yok",
+	"sInfo":           "Gösteriliyor _START_ için _END_ nın-nin _TOTAL_ girdileri",
+	"sInfoEmpty":      "0 kayıttan 0 ile 0 arası gösteriliyor",
+	"sInfoFiltered":   "(filtrelendi _MAX_ toplam giriş)",
+	"sInfoPostFix":    "",
+	"sInfoThousands":  ",",
+	"sLengthMenu":     "_MENU_", 
+	"sLoadingRecords": "Yükleniyor...",
+	"sProcessing":     "İşleme...",
+	"searchPlaceholder":         "Arama...",
+	"sZeroRecords":    "Hiçbir eşleşen kayıt bulunamadı",
+	"oPaginate": {
+		"sFirst":    "İlk",
+		"sLast":     "Son",
+		"sNext":     "Sonraki",
+		"sPrevious": "Önceki"
+	},
+	"oAria": {
+		"sSortAscending":  ": artan sütunu sıralamak için etkinleştir",
+		"sSortDescending": ": sütunu azalan sıralamak için etkinleştir"
+	}
+}

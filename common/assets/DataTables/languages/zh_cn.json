@@ -1,0 +1,23 @@
+{
+	"sEmptyTable":     "表中无可用数据",
+	"sInfo":           "显示中 _START_ 于 _END_ 的 _TOTAL_ 参赛作品",
+	"sInfoEmpty":      "显示0条目中的0到0",
+	"sInfoFiltered":   "(过滤自 _MAX_ 总条目)",
+	"sInfoPostFix":    "",
+	"sInfoThousands":  ",",
+	"sLengthMenu":     "_MENU_", 
+	"sLoadingRecords": "载入中...",
+	"sProcessing":     "处理中...",
+	"searchPlaceholder":         "搜索...",
+	"sZeroRecords":    "未能找到匹配的记录",
+	"oPaginate": {
+		"sFirst":    "第一",
+		"sLast":     "持续",
+		"sNext":     "下一个",
+		"sPrevious": "以前"
+	},
+	"oAria": {
+		"sSortAscending":  ": 激活以升序排序",
+		"sSortDescending": ": 激活以对列降序排序"
+	}
+}

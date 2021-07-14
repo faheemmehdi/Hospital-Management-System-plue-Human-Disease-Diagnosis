@@ -1,0 +1,391 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #212226;
+	font-family:"sans-serif"
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "raleway", "sans-serif"
+}
+
+p {
+    font-family: "open sans";
+    font-weight: 400px;
+    line-height: 24px;
+    font-size: 13px;
+}
+.navbar{
+    
+}
+
+.navbar-brand{
+    color: #BABABA;
+    font-size: 29px;
+    font-weight: normal;
+    font-family: sans-serif
+}
+.navbar-brand:hover{
+   color: #BABABA; 
+}
+.navbar-brand span{
+    color: #0069D9;
+}
+.nav-link{
+    color: #BABABA;
+    margin-right: 2px;
+}
+.navbar-nav .active{
+  background: #F77B6F;
+    border-radius: 5px;
+    color:#fff;
+     padding: 10px;
+}
+.nav-link:hover{
+    background: #F77B6F;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-link:focus{
+      background: #F77B6F;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px; 
+}
+.navbar-toggler .fa{
+    padding: 3px;
+    border:1px solid #333;;
+    border-radius: 2px;
+}
+.scrollTop{
+    background: #fff;
+}
+#header{
+  //  background: url(../img/home/1503411077revised-bhatia-homebanner-03.jpg)no-repeat;
+    height: 600px;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+.home-content{
+    margin-top: 40%;
+}
+.home-content h1{
+    font-family: sans-serif;
+      color: #0069D9;
+}
+.home-content h6{
+    text-align: center;
+    color: #ddd;
+    font-size: 22px;
+    font-weight: bold;
+}
+#hospital-management .card{
+    background: #ddd;
+    color:#333;
+    font-size: 42px;
+    border:0px;
+    text-align: center;
+}
+#hospital-management .card-content{
+    padding: 20px;
+    
+}
+#hospital-management .card-content h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: serif;
+    text-align: center;
+}
+#hospital-management  .card .fa{
+    color: #F77B6F;
+}
+#hospital-management  .card:hover{
+    background: #F8D347;
+    color: #fff;
+    cursor: pointer;
+}
+#hospital-management  .card:hover .fa{
+   
+}
+#hospital-management  .card-2nd:hover{
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+}
+#hospital-management  .card:hover .fa{
+    color: #fff;
+    transform: scale(1.5);
+    transition: all ease 0.3s;
+   
+} 
+.modal{
+
+}
+.modal-body{
+    /*background: #0F62FE;*/
+    background: #fff;
+    padding: 20px;
+    /*border: 1px solid #fff;*/
+    border-radius: 15px;
+}
+.modal-body label{
+    color:#000;
+    margin-top: 10px;
+}
+#service{
+    background: #F2F2F2;
+}
+#service h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #BABABA;
+}
+#package .card{
+    background: #EEEEEE;
+}
+#package .card p{
+    border-bottom: 1px dotted;
+    padding: 2px;
+    margin: 10px;
+}
+#package .btn{
+    background: #ACACAC;
+    border: 0px;
+}
+#footer{
+    background: #475268;
+}
+#footer h4{
+    font-size: 21px;
+    font-weight: bold;
+    color:#fff;
+}
+#footer p{
+    color: #fff;
+}
+.contact-info span{
+    color:#9E676A;
+}
+.cube{
+    position: absolute;
+     content: '';
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 20px solid  #505B71;;
+    top: 40px;
+    left: 50px;
+    
+}
+.latest-tweet .row{
+    background: #505B71;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.latest-tweet .fa{
+    font-size: 32px;
+    line-height: 50px;
+    color:#00ADEF;
+}
+.shape{
+    margin-top: 30px;
+   
+ border-radius:5px;
+}
+.shape p{
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.shape span{
+     color:#00ADEF;
+}
+.social-icon ul{
+    list-style: none;
+    
+}
+.social-icon ul li{
+    float: left;
+    width: 60px;
+    height: 60px;
+     
+    margin-right: 10px;
+   
+}
+
+.social-icon ul li  a{
+    background: #505b71;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+   
+}
+.social-icon ul li:first-child:hover a{
+    background: #3A5896;
+    transition: all ease 0.2s;
+}
+.social-icon ul li:nth-child(2):hover a{
+    background: #D74A37;
+     transition: all ease 0.2s;
+}
+.social-icon ul li:nth-child(3):hover a{
+    background: #5BA5D8;
+     transition: all ease 0.2s;
+}
+.social-icon ul li:last-child:hover a{
+    background: #F80000;
+     transition: all ease 0.2s;
+}
+.social-media h4{
+    margin-left: 40px;
+}
+
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /*background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');*/
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+
+/* Optional
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+*/
